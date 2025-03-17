@@ -1,6 +1,6 @@
 // Replace <USERNAME> and <REPO> with your own GitHub info
-// Make sure the branch and file path match where your CSV is stored.
-const csvUrl = "https://github.com/roaasoloh/webscraping-automation/blob/main/bitcoin_hourly_data.csv";
+
+const csvUrl = "https://raw.githubusercontent.com/roaasoloh/webscraping-automation/main/bitcoin_hourly_data.csv";
 
 async function fetchCsvData() {
   try {
