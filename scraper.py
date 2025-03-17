@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 options = Options()
-# options.add_argument("--headless")  # Uncomment if you want headless mode
+options.add_argument("--headless")  # Uncomment if you want headless mode
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1920,1080")
 

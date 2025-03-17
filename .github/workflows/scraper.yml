@@ -19,7 +19,8 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install selenium pandas
+        run: pip install selenium pandas webdriver-manager fake-useragent
+
 
       - name: Run Selenium scraper
         run: python scraper.py
